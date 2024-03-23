@@ -1,0 +1,245 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+    /*outline: 2px solid red;*/
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .container {
+      height: 100%;
+    }
+  
+    .container .navbar {
+      flex-direction: column;
+    }
+  }
+
+.container, .div_main{
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.container .navbar{
+    justify-content: space-between;
+}
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.navbar ul{
+    display: flex;
+   
+}
+
+.navbar ul li{
+    list-style-type: none;
+}
+
+.container .navbar ul li{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    height: 25px;
+}
+
+.navbar a:hover{
+    color: green;
+}
+
+.container_main1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.container_main1 .hero_main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.container_main1 .hero_secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main_content{
+    width: 39%;
+}
+
+.container_main1 button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 130px;
+    height: 38px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.container_main1 .image_placeholder{
+    height: 250px;
+    width:50%;
+    background-color: rgb(146, 146, 163);
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.image_placeholder > p{
+    padding-top: 120px;
+    padding-left: 150px;
+}
+
+.information_main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+
+.header_container{
+    margin-top: 50px;
+    padding-left: 150px;
+}
+
+.information_header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 300px;
+    /*border: 10px solid red;*/
+}
+
+.card_image {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 17px;
+}
+
+.card > p {
+    width: 80%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.quote_container {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 380px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    /*border: 10px solid red;*/
+}
+
+.quote_words{
+    margin-left: 30px;
+}
+
+.quote_reference {
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.call-to-action_main {
+    width: 100%;
+    height: 300px;
+    /*border: 10px solid red;*/
+}
+
+.call-to-action_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 8px;
+}
+
+.call-to-action_hero {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-to-action_secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.call-to-action_button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 130px;
+    height: 38px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+    padding-top: 75px;
+}
